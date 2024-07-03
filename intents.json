@@ -1,0 +1,111 @@
+
+{
+    "intents": [
+      {
+        "tag": "saludo",
+        "patterns": ["Hola", "Buenos días", "Buenas tardes"],
+        "responses": ["¡Hola! ¿Cómo puedo ayudarte hoy?", "¡Buenas! ¿Qué necesitas?"]
+      },
+      {
+        "tag": "saludo_2",
+        "patterns": ["qué tal ?", "como estás", "como estas", "como te va", "como te va ?"],
+        "responses": ["Bien, ¿en qué puedo ayudarte?", "Todo bien, ¿en qué puedo ayudarte?"]
+      },
+      {
+        "tag": "despedida",
+        "patterns": ["Adiós", "Hasta luego", "Nos vemos"],
+        "responses": ["¡Adiós! ¡Esperamos verte pronto!", "¡Hasta luego! ¡Gracias por visitarnos!", "¡Nos vemos! ¡Vuelve pronto!"]
+      },
+      {
+        "tag": "agradecimiento",
+        "patterns": ["Gracias", "Muchas gracias", "Gracias por la ayuda", "Gracias por la información"],
+        "responses": ["¡De nada! ¡Estoy aquí para ayudarte!", "¡No hay de qué! ¡Siempre a tu servicio!", "¡Fue un placer ayudarte!"]
+      },
+      {
+        "tag": "horarios",
+        "patterns": ["Dime el horario", "¿Cuál es el horario?", "¿A qué hora abren?", "¿A qué hora cierran?"],
+        "responses": ["Nuestro horario es de 9 AM a 6 PM de lunes a viernes.", "Abrimos de 9 AM a 6 PM de lunes a viernes."]
+      },
+      {
+        "tag": "informacion_general",
+        "patterns": [
+          "¿Qué servicios ofrecen?",
+          "¿Cuál es su especialidad?",
+          "¿Dónde están ubicados?",
+          "¿Cuál es su número de contacto?"
+        ],
+        "responses": [
+          "Ofrecemos una variedad de servicios. ¿Hay algo específico en lo que estés interesado?",
+          "Nuestra especialidad son los productos tecnológicos. ¿Hay algo en particular que te gustaría saber?",
+          "Estamos ubicados en el centro de la ciudad. ¿Necesitas más detalles sobre nuestra ubicación?",
+          "Puedes contactarnos al número XXX-XXX-XXXX. ¿En qué más puedo ayudarte?"
+        ]
+      },
+      {
+        "tag": "precios",
+        "patterns": [
+          "¿Cuánto cuesta esto?",
+          "¿Cuál es el precio de [producto]?",
+          "¿Tienen descuentos?"
+        ],
+        "responses": [
+          "Los precios pueden variar. ¿Estás interesado en algo en específico?",
+          "El precio de [producto] es de $XXX. ¿Te gustaría más información sobre este producto?",
+          "Tenemos promociones y descuentos periódicamente. ¿Qué producto te interesa?"
+        ]
+      },
+      {
+        "tag": "comprar",
+        "patterns": [
+          "¿Cómo puedo comprar?",
+          "¿Puedo hacer una orden?",
+          "Quiero comprar [producto]"
+        ],
+        "responses": [
+          "Puedes comprar en línea en nuestro sitio web () o visitando nuestra tienda física.",
+          "Sí, puedes realizar una orden a través de nuestro sitio web o contactándonos directamente.",
+          "Por supuesto, ¿qué producto te gustaría comprar? Te puedo asistir con el proceso."
+        ]
+      },
+      {
+        "tag": "problema_tecnico",
+        "patterns": [
+          "Tengo un problema técnico",
+          "No puedo acceder a mi cuenta",
+          "Necesito soporte técnico"
+        ],
+        "responses": [
+          "Lamento escuchar eso. ¿Puedes describirme más detalladamente cuál es el problema?",
+          "Por favor, dame más detalles sobre el problema técnico para poder ayudarte mejor.",
+          "Voy a conectar contigo con nuestro equipo de soporte técnico. Ellos podrán ayudarte con eso."
+        ]
+      },
+      {
+        "tag": "despedida_amigable",
+        "patterns": [
+          "Hasta pronto",
+          "Nos vemos luego",
+          "Chao"
+        ],
+        "responses": [
+          "¡Hasta pronto! Si tienes más preguntas, no dudes en volver.",
+          "¡Nos vemos luego! Que tengas un buen día.",
+          "¡Chao! ¡Gracias por tu visita!"
+        ]
+      },
+      {
+        "tag": "quien_eres_tu",
+        "patterns": [
+            "¿Quién eres tú?",
+            "¿Cuál es tu nombre?",
+            "¿Eres un bot?",
+            "¿Qué eres?"
+        ],
+        "responses": [
+            "Soy un bot desarrollado para ayudarte con cualquier consulta que tengas. Puedo proporcionarte información sobre nuestros productos y servicios, ayudarte a realizar pedidos, y más.",
+            "¡Hola! Soy un bot creado para proporcionarte información sobre nuestros productos y servicios. Estoy aquí para responder tus preguntas y ayudarte en lo que necesites.",
+            "¡Hola! Soy un bot automatizado diseñado para brindarte asistencia. Si tienes preguntas sobre nuestros productos o servicios, no dudes en preguntarme."
+        ]
+    }
+    ]
+}
